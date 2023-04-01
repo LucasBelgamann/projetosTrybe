@@ -1,0 +1,115 @@
+html {
+  background-image: url('https://lumiere-a.akamaihd.net/v1/images/star-wars-backgrounds-01-_2_d9c6033a.png?download=true');
+}
+
+* {
+  box-sizing: border-box;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media ( prefers-reduced-motion : no-preference ) {
+
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.inputs-pai {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  height: 10vh;
+  justify-content: space-around;
+}
+
+.inputs-pai input, select, option {
+  border-radius: 15px;
+  color: black;
+  height: 4vh;
+  margin-left: 3rem;
+  text-align: center;
+  width: 10vw;
+}
+
+.add-filter {
+  background-color: rgb(230, 169, 15);
+  border-radius: 10px;
+  color: black;
+  font-weight: 900;
+  height: 4vh;
+  margin: 0 2rem;
+  width: 10vw;
+}
+
+.add-filter:hover {
+  background-color: rgb(134, 97, 4);
+  cursor: pointer;
+}
+
+.logo {
+  margin-left: 2rem;
+  width: 8vw;
+}
+
+.pai-tabela {
+  background-color: black;
+  color: white;
+}
+
+.pai-tabela table {
+  margin-top: 2rem;
+}
+
+.remove-filter {
+  background-color: rgb(230, 169, 15);
+  border-radius: 10px;
+  color: black;
+  font-weight: 900;
+  height: 4vh;
+  margin: 0 2rem;
+  width: 2vw;
+}
+
+.remove-all {
+  background-color: rgb(230, 169, 15);
+  border-radius: 10px;
+  color: black;
+  font-weight: 900;
+  height: 4vh;
+  margin: 0 2rem;
+  width: 10vw;
+}

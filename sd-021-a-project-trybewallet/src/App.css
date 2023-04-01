@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.form {
+  align-items: center;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 55vh;
+  justify-content: center;
+  margin: 12rem auto;
+  width: 25vw;
+}
+
+.form-login {
+  padding: 2rem;
+}
+
+.form-login input {
+  background-color: white;
+  border: none;
+  height: 4vh;
+  margin: 0.5rem 0;
+  outline: none;
+  width: 15vw;
+}
+
+.form-login button {
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  height: 4.5vh;
+  margin: 2rem 0;
+  width: 10vw;
+}
+
+.form h1 {
+  background-color: black;
+  margin: 2rem 0;
+}

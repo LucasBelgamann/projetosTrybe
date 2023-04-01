@@ -1,0 +1,32 @@
+
+> sd-0x-project-shopping-cart@1.0.0 cypress /home/lucas/projetosDaTrybe/sd-021-a-project-shopping-cart
+> cypress run
+
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:    4.3.0                                                                              │
+  │ Browser:    Electron 80 (headless)                                                             │
+  │ Specs:      1 found (project.spec.js)                                                          │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  project.spec.js                                                                 (1 of 1)
+
+
+  Shopping Cart Project
+    1 - Crie uma listagem de produtos
+      ✓ Listagem de produtos (679ms)
+    2 - Adicione o produto ao carrinho de compras
+      ✓ Adicione o produto ao carrinho de compras (1767ms)
+    3 - Remova o item do carrinho de compras ao clicar nele
+      ✓ Remova o item do carrinho de compras ao clicar nele (1006ms)
+    4 - Carregue o carrinho de compras através do **LocalStorage** ao iniciar a página
+      ✓ Carregue o carrinho de compras através do **LocalStorage** ao iniciar a página (2900ms)
+      ✓ Deverá ser possível remover items do carrinho ao clicar sobre eles mesmo após recarregar a página (918ms)
+    5 - Calcule o valor total dos itens do carrinho de compras de forma assíncrona
